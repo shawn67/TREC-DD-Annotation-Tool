@@ -1,0 +1,69 @@
+/* Customized Reset */
+textarea{resize:none; display:block;}
+pre{word-break:break-word; white-space: pre-wrap}
+
+body{min-width:1260px; margin:auto; padding:0 10px; font-family:Arial; overflow-y:hidden;}
+
+/* Main */
+#content{float:left; width:62%; padding-right:20px; }
+#leftbanner{float:left;}
+h1{font-size:36px; margin-top:25px; font-weight:bold; color:#3394C4;}
+#logout{float:right; margin-top:28px; text-decoration:underline; cursor:pointer; color:#126C98;}
+
+#selection_wrap{margin-right:5px; float:left;}
+#topic_text{margin-right:5px; float:left;}
+#topic_add{float:left; cursor:pointer;} 
+#topic_add img{width:20px; height:20px;}
+#topic_edit{float:left; cursor:pointer; text-decoration:underline; margin-left:5px; line-height:20px;}
+#topic_selection{min-width:240px; height:19px;}
+#topic_wrapper form{float:left;}
+#topic_wrapper {margin-bottom:5px;}
+
+#addtopic, #confirm_topic{height:18px; margin-top:2px; margin-bottom:10px; display:none;}
+#addtopic div, #confirm_topic div{float:left;}
+#newtopic, #confirmtopic{margin-right:5px;}
+#addtopic input, #confirm_topic input{width:236px; border:2px solid #CCC; padding:1px 0px;}
+#addtopic img, #confirm_topic img {width:21px; height:21px; cursor:pointer; }
+
+#conf{float:right;}
+#conf form{float:right; margin-top:26px; margin-right:5px;}
+
+#user{float:right; margin-top:28px;margin-right:10px;}
+#mode{height:20px; margin:10px 1px;}
+#mode div{float:left; margin-right:20px; height:16px; margin-top:2px;}
+.switchmode{text-decoration:underline; color:#126C98; cursor:pointer;}
+.currentmode{text-decoration:none; color:grey; cursor:normal;}
+nav{height:22px; border-bottom:1px dotted #5CB8E6;}
+#prev{float:left;}
+#docno{float:left; margin-left:250px;}
+#prev,#next{cursor:pointer; text-decoration:underline; color:#126C98;}
+#next{float:right; margin-right:20px;}
+article{margin-top:20px; line-height:22px; overflow-y:scroll;}
+#lemurbox{width:100%; border-top:1px dotted #5CB8E6;} 
+footer{margin-top:20px; padding-top:10px; font-size:14px; color:#999; border-top:1px solid #C3C3C3;}
+
+/* Sidebar */
+
+#subtopic_wrapper{ border-top:1px solid #5CB8E6; padding-top:10px;}
+#sidebar{float:left; border-left:1px solid #5CB8E6; padding-top:10px; padding-left:15px; padding-right:25px; width:33%; overflow-y:scroll; }
+#newDropbox{float:left; width:65px; height:65px; cursor:pointer; background-size:contain; background-image:url("../img/add.png");}
+#hint{float:left; margin-top:21px; margin-left:20px; font-size:24px;}
+#setDropbox{float:left; display:none; margin-top:10px; margin-left:20px; }
+#subtopicName{float:left; margin-top:5px; width:210px; height:35px; padding:1px; font-size:20px;}
+#setup{float:left; margin-top:5px; margin-left:12px; height:41px; font-size:16px;}
+#dropboxList{margin-top:10px; width:100%;}
+.droppable{width:100%;  height:200px; border:1px solid #5CB8E6; margin-top:10px; overflow-y:scroll;}
+.droppable h2{float:left; padding-left:8px; padding-top:5px; font-size:30px; font-weight:bold; color:#3394C4;}
+.editbox{float:left; height:25px; margin-top:2px; margin-left:2px; padding-left:2px; padding-top:2px; font-size:16px;}
+.edit,.confirmEdit{float:right; cursor:pointer; text-decoration:underline; margin-left:10px; margin-right:10px; margin-top:10px;}
+.annotating,.annotated{margin-top:5px; margin-left:12px; padding-bottom:5px; padding-right:10px; line-height:18px; font-size:14px; text-align:justify;}
+.eval{vertical-align:text-bottom; margin-right:5px;}
+.annotated{color:grey;}
+.docinfo{ color:#C94B4B; font-size:12px; cursor:pointer;}
+.remove{float:right; width:16px; height:16px; cursor:pointer; vertical-align:bottom; opacity:0.7;}
+#datasubmit, #viewdata{line-height:50px; text-align:justify; margin-top:20px; float:right; width:120px; height:50px; font-size:14px; 
+color:#247AA5; text-align: center; border:2px solid #3394C4; border-radius:10px; display:block; cursor:pointer; margin-left:20px;}
+#datasubmit:hover, #viewdata:hover{background-color:#DDD; color:#42A3D9}
+
+
+

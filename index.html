@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Annotator for Trec Dynamic Domain Track</title>
+		<link rel="stylesheet" type="text/css" href="./css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+		<script src="./js/jquery.js"></script>
+		<script src="./js/rangy-core.js"></script>
+		<script src="./js/rangy-textrange.js"></script>
+		<script src="./js/main.js"></script>
+	</head>
+	
+	<body>
+	<div id="wrapper">
+		<div id="content">
+			<div id="leftbanner">
+				<h1>Annotation for TREC-DD</h1>	
+				<div id="mode">
+					<div id="queuemode">Browse</div>
+					<div id="lemurmode">Search</div>
+					<div style="clear:both"></div>
+				</div>
+			</div>
+			
+			<div id="conf">
+				<a href="beta.cgi" id="logout">logout</a>
+				<form action="beta.cgi">
+					<select id="change_domain" name="domain" onchange="this.form.submit()">
+						%s
+					</select>
+				</form>
+				<div id="user"><span id="username">%s</span>, current domain: </div>
+				<div style="clear:both;"></div>
+				
+			</div>
+			<div style="clear:both"></div>
+			
+			<div id="docbox">
+				<nav>
+					<div id="prev">&lt;&lt;Prev DOC</div>
+					<div id="docno">DOCNO: ./ebola/5.txt</div>
+					<div id="next">Next DOC&gt;&gt;</div>
+					<div style="clear:both;"></div>
+				</nav>
+				<article onmouseup="snapSelectionToWord()">
+					<pre></pre>
+				</article>
+				<iframe id="lemurbox" src=%s>
+				</iframe>
+			</div>
+			<footer>
+				This annotator tool is developed by Georgetown University InfoSense Group, for TREC Dynamic Domain Track use.
+			</footer>
+		</div>
+		<div id="sidebar">
+			
+			<div id="topic_wrapper">
+				<div id="topic_text">topic : </div>
+				<form action="beta.cgi" method="post">
+					<div id="topic_ctrl"> 
+						<div id="selection_wrap">
+							<select id="topic_selection" name="topic" onchange="this.form.submit()">
+							%s
+							</select>
+						</div>
+						<div id="topic_add">
+							<img src="./img/topic_add.png"/>
+						</div>
+						<div id="topic_edit">
+							edit
+						</div>
+						<div style="clear:both;"></div>
+
+					</div>
+					<div id="addtopic">
+						<div id="newtopic">
+							<input type="text">
+						</div>
+						<div>
+							<img src="./img/addTopicConfirm.png">
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+					<div id="confirm_topic">
+						<div id="confirmtopic">
+							<input type="text">
+						</div>
+						<div>
+							<img src="./img/addTopicConfirm.png">
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+				</form>	
+				<div style="clear:both"></div>
+			</div>
+			<div id="subtopic_wrapper">
+				<div id="newDropbox"></div>
+				<div id="hint">Click here to add subtopic</div>
+				<div id="setDropbox">
+					<form>
+						Please enter the new subtopic name here<br/> 
+						<input type="text" id="subtopicName">
+						<input id="setup" type="button" name="setup" value="confirm">
+					</form>
+				</div>
+				<div style="clear:both;"></div>
+				<div id="dropboxList">
+					<!--<div class="droppable" ondragover="return false" ondrop="annotate(event)">
+						<h2>Subtopic X</h2>
+						<input class="editbox" style="display: none;"></input>
+						<div class="edit">edit</div>
+						<div class="confirmEdit" style="display: none;">confirm</div>
+						<div style="clear:both; padding-bottom:10px;"></div>
+					</div>
+					<div class="droppable" ondragover="return false" ondrop="annotate(event)">
+						<h2>Subtopic Y</h2>
+						<input class="editbox" style="display: none;"></input>
+						<div class="edit">edit</div>
+						<div class="confirmEdit" style="display: none;">confirm</div>
+						<div style="clear:both; padding-bottom:10px;"></div>
+					</div>-->
+					%s
+					<div id="datasubmit" onclick="upload()">Save Annotations</div>
+					<div id="viewdata" onclick="view()">View Annotations</div>
+				</div>
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+	</body>
+</html>

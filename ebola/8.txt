@@ -1,0 +1,13 @@
+Specific laboratory testing
+The diagnosis of EVD is confirmed by isolating the virus, detecting its RNA or proteins, or detecting antibodies against the virus in a person's blood. Isolating the virus by cell culture, detecting the viral RNA by polymerase chain reaction (PCR)[13] and detecting proteins by enzyme-linked immunosorbent assay (ELISA) are methods best used in the early stages of the disease and also for detecting the virus in human remains. Detecting antibodies against the virus is most reliable in the later stages of the disease and in those who recover.[73] IgM antibodies are detectable two days after symptom onset and IgG antibodies can be detected 6 to 18 days after symptom onset.[13]
+
+During an outbreak, isolation of the virus via cell culture methods is often not feasible. In field or mobile hospitals, the most common and sensitive diagnostic methods are real-time PCR and ELISA.[74] In 2014, with new mobile testing facilities deployed in parts of Liberia, test results were obtained 3–5 hours after sample submission.[75]
+
+Filovirions, such as EBOV, may be identified by their unique filamentous shapes in cell cultures examined with electron microscopy, but this method cannot distinguish the various filoviruses.[76]
+
+Differential diagnosis
+Early symptoms of EVD may be similar to those of other diseases common in Africa, including malaria and dengue fever.[15] The symptoms are also similar to those of Marburg virus disease and other viral hemorrhagic fevers.[77]
+
+The complete differential diagnosis is extensive and requires consideration of many other infectious diseases such as typhoid fever, shigellosis, rickettsial diseases, cholera, sepsis, borreliosis, EHEC enteritis, leptospirosis, scrub typhus, plague, Q fever, candidiasis, histoplasmosis, trypanosomiasis, visceral leishmaniasis, measles and viral hepatitis among others.[78]
+
+Non-infectious diseases that may result in symptoms similar to those of EVD include acute promyelocytic leukemia, hemolytic uremic syndrome, snake envenomation, clotting factor deficiencies/platelet disorders, thrombotic thrombocytopenic purpura, hereditary hemorrhagic telangiectasia, Kawasaki disease and warfarin poisoning.[74][79][80][81]
